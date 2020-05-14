@@ -1,0 +1,18 @@
+ID,Variable 1,Dependency,Variable 2
+1,Month,->,SpecialDay
+2,Month,->,TrafficType_convert
+3,SpecialDay,->,Weekend
+4,SpecialDay,->,ExitRates_convert
+5,TrafficType_convert,->,VisitorType
+6,ExitRates_convert,->,BounceRates_convert
+7,ExitRates_convert,->,Revenue
+8,ExitRates_convert,->,AvgAdministrative_convert
+9,ExitRates_convert,->,AvgInformational_convert
+10,ExitRates_convert,->,AvgProductRelated_convert
+11,TrafficType_convert,->,OperatingSystems
+12,Region,->,OperatingSystems
+13,OperatingSystems,->,Browser
+14,Browser,->,PageValues_convert
+15,PageValues_convert,->,Revenue
+16,VisitorType,->,ExitRates_convert
+17,AvgProductRelated_convert,->,Revenue
